@@ -1,0 +1,115 @@
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flex-gallery .producto {
+  width: 200px;
+  text-align: center;
+}
+
+.flex-gallery img {
+  width: 100%;
+  border: 2px solid #795548;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre productos */
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.producto {
+  flex: 1 1 200px; /* crece, reduce, ancho base */
+  max-width: 250px;
+  text-align: left;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+header {
+  background-color: #4d312b;
+  color: rgb(240, 239, 239);
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar a {
+  color: rgb(239, 236, 239);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;}
+
+  /* Fondo café claro para la galería */
+.flex-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background-color: #f3e9dc; /* fondo cálido */
+  border-top: 1px solid #d2b48c;
+  border-bottom: 1px solid #d2b48c;
+}
+
+/* Estilo para cada producto */
+.producto {
+  background-color: #fffdfb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.03);
+}
+
+/* Imagen */
+.producto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Descripción del producto */
+.producto p {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5c3a1e;
+  background-color: #f7eee3; /* fondo debajo del texto */
+  margin: 0;
+}
+.skip-link {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.skip-link:hover {
+  background-color: #ff9800;}

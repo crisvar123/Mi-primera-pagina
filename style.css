@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-link {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.skip-link:hover {
+  background-color: #ff9800;
+}
+
+header {
+  background-color: #4d312b;
+  color: rgb(240, 239, 239);
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar a {
+  color: rgb(239, 236, 239);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+.nav-bar a:hover {
+  background-color: #010302;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border: 3px solid #aa4a27;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #4d221a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Estilo para la sección con fondo café claro */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background-color: #f3e9dc; /* Café clarito */
+  border-top: 1px solid #d2b48c;
+  border-bottom: 1px solid #d2b48c;
+}
+
+/* Estilo para cada bloque con imagen y texto */
+.cafe-info {
+  background-color: #fffdfb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cafe-info:hover {
+  transform: scale(1.02);
+}
+
+/* Imagen */
+.cafe-info img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Texto debajo de la imagen */
+.cafe-info p {
+  padding: 15px;
+  font-size: 1rem;
+  color: #5c3a1e;
+  background-color: #f7eee3; /* fondo suave debajo del texto */
+  margin: 0;
+}
+/* Logo principal */
+.logo {
+  padding: 10px 20px;
+  background-color: #4b2e1e; /* Café oscuro */
+  color: #af9722;
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: le;
+}
+
+/* El título dentro del logo */
+.logo h2 {
+  margin: 0;
+}
+
+/* Ajuste para el nav-bar */
+.nav-bar {
+  background-color: #4b2e1e;
+  padding: 15px 0;
+}

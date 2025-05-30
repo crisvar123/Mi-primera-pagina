@@ -1,0 +1,164 @@
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #835848;
+  border-radius: 10px;
+  background-color: #fff3e0;
+  box-sizing: border-box;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #5d4037;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #3e2723;
+}
+header {
+  background-color: #4d312b;
+  color: rgb(240, 239, 239);
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar a {
+  color: rgb(239, 236, 239);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;}
+
+  /* Fondo general de la sección de contacto */
+.contact-form {
+  background-color: #f3e9dc; /* café clarito */
+  padding: 40px;
+  border-top: 1px solid #d2b48c;
+  border-bottom: 1px solid #d2b48c;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Título de la sección */
+.contact-form h2 {
+  text-align: center;
+  color: #5c3a1e;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+/* Estilos del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Etiquetas */
+label {
+  font-weight: bold;
+  color: #3e2c1c;
+}
+
+/* Campos de entrada y textarea */
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fffdfb;
+  color: #333;
+  font-family: inherit;
+}
+
+/* Botón de envío */
+button {
+  background-color: #a97c50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8b643d;
+}
+/* Estilo de la barra de navegación */
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fbeee6; /* Color crema para contraste */
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #cd5210; /* Café más claro al pasar el mouse */
+}
+
+.skip-link {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.skip-link:hover {
+  background-color: #ff9800;}
